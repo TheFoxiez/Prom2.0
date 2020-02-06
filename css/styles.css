@@ -1,0 +1,143 @@
+ /* CSS Document */
+* 
+
+{
+	margin:0;
+	padding:0;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+		background-image:url("../photo-of-a-woman-wearing-green-dress-985635.jpg");
+	font-family: 'Karla', Sans-serif;
+	font-size: 16px;
+	height: 100vh;
+}
+.main {
+	padding: 2rem 1rem;
+}
+.col_one,
+.col_two,
+.col_three {
+	display: flex;
+	flex-direction: column;
+}
+/*-------------*/
+.community-copy,
+.monthly-copy,
+.why-copy {
+	padding:30px;
+}
+.community-copy {
+	background-color:antiquewhite;
+	border-radius: 8px 8px 0 0;
+}
+.community-copy h1 {
+	font-size: 1.5rem;
+	color:#48344B;
+}
+.community-copy h2 {
+	font-size: 1rem;
+	color: #48344B;
+}
+.community-copy p {
+	font-size: 1rem;
+	color: #48344B;
+	line-height: 1.8;
+}
+/*-----Monthly subsription section*/
+.monthly-copy {
+	background-color: #48344B;
+		color:#fff;
+}
+.monthly-copy h2 
+.why-copy h2 {
+	font-weight:300;
+	font-size: 1.2rem;
+}
+.monthly-copy p {
+	margin: 15px 0;
+	font-weight: 300;
+}
+.monthly-copy span {
+	font-size: 2rem;
+	margin-right: 10px;
+	font-weight:700;
+}
+.monthly-copy a {
+	display: block;
+	margin-top: 25px;
+	baxkground-color: hsl(71,73%,54%);
+	color:#fff;
+	width:100%;
+	padding:15px 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	box-shadow: 0px 5px 12px rgba(0,0,0,0.3);
+}
+/*----why section---*/
+.why-copy {
+	background-color:#3E253D;
+	color: #fff;
+	border-radius: 0 0 8px 8px;
+}
+.why-color h2 {
+	margin-bottom: 15px;
+}
+.why-copy li {
+	list-style: none;
+	padding: 5px 0;
+	font-weight: 300;
+}
+footer {
+	padding: 1rem;
+}
+footer p { font-size: 0.8rem;
+color: #000;
+}
+footer span {
+	color: hsl(71, 73%, 54%);
+}
+@media screen and (min-width: 768px) {
+	.main {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+	.container {
+		background-color: #F0FCAF;
+		max-height: 800px;
+		max-width: 800px;
+		align-items: center;
+	}
+	.community-copy {
+		padding: 3rem;
+	}
+	.community-copy p {
+		background-color:antiquewhite;
+		width: 80%;
+	}
+	.monthly-copy,
+	.why-copy {
+		padding: 3rem 2rem 2rem 3rem;
+	}
+	.col_two,
+	.col_three {
+	flex-basis: 50%;	
+	}
+	.monthly-copy {
+		border0radius: 0 0 0 8px;
+	}
+	.flex-pair {
+		display: flex;
+		flex-direction: row;
+	}
+.why-copy {
+	border-radius: 0 0 8px 0;
+}
+}
